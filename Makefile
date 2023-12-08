@@ -1,0 +1,2 @@
+main: main.cpp
+	clang++ main.cpp ./src/** -o exec -I./include -I/Library/Frameworks/SDL2.framework/Headers -I/Library/Frameworks/SDL2_image.framework/Headers -F/Library/Frameworks -framework SDL2 -framework SDL2_image -std=c++20 -w
